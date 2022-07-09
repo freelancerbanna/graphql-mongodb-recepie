@@ -1,9 +1,14 @@
-import { ApolloServer } from "apollo-server-express";
+const { ApolloServer } = require("apollo-server-express");
+const {
+  ApolloServerPluginLandingPageGraphQLPlayground,
+} = require("apollo-server-core");
 
-import { typeDefs, resolvers } from "./schema";
+const { typeDefs, resolvers } = require("./schema");
 
 const server = new ApolloServer({
   typeDefs,
   resolvers,
-  plugins: [ApolloServerPluginDrainHttpServe({ httpServer })],
+  //   plugins: ApolloServerPluginLandingPageGraphQLPlayground,
 });
+
+server.

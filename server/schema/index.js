@@ -1,8 +1,8 @@
-import { gql } from "apollo-server";
+const { gql } = require("apollo-server");
 
 const typeDefs = gql`
   type Query {
-    greet: string
+    greet: String
   }
 `;
 const resolvers = {
@@ -11,4 +11,4 @@ const resolvers = {
   },
 };
 
-export { resolvers, typeDefs };
+module.exports = { resolvers, typeDefs };
