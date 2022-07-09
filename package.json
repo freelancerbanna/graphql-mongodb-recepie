@@ -1,5 +1,5 @@
 {
-  "name": "graphql-react-quote",
+  "name": "graphql-mongodb-recepie",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freelancerbanna/graphql-react-quote.git"
+    "url": "git+https://github.com/freelancerbanna/graphql-mongodb-recepie.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/freelancerbanna/graphql-react-quote/issues"
+    "url": "https://github.com/freelancerbanna/graphql-mongodb-recepie/issues"
   },
-  "homepage": "https://github.com/freelancerbanna/graphql-react-quote#readme",
+  "homepage": "https://github.com/freelancerbanna/graphql-mongodb-recepie#readme",
   "dependencies": {
     "apollo-server": "^3.9.0",
     "apollo-server-core": "^3.9.0",

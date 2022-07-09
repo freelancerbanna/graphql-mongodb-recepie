@@ -10,5 +10,3 @@ const server = new ApolloServer({
   resolvers,
   //   plugins: ApolloServerPluginLandingPageGraphQLPlayground,
 });
-
-server.
