@@ -1,5 +1,5 @@
 {
-  "name": "graphql-mongodb-recepie",
+  "name": "graphql-mongodb-recipe",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freelancerbanna/graphql-mongodb-recepie.git"
+    "url": "git+https://github.com/freelancerbanna/graphql-mongodb-recipe.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/freelancerbanna/graphql-mongodb-recepie/issues"
+    "url": "https://github.com/freelancerbanna/graphql-mongodb-recipe/issues"
   },
-  "homepage": "https://github.com/freelancerbanna/graphql-mongodb-recepie#readme",
+  "homepage": "https://github.com/freelancerbanna/graphql-mongodb-recipe#readme",
   "dependencies": {
     "apollo-server": "^3.9.0",
     "apollo-server-core": "^3.9.0",
